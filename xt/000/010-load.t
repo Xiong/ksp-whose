@@ -9,10 +9,9 @@ BEGIN {
 }   
 
 BEGIN {
-use Error::Base;                # Simple structured errors with full backtrace
-use Error::Base::Cookbook;      # Examples of Error::Base usage
+use Game::KSP;                  # Interact with Kerbal Space Program files
     
 }
 
 pass( 'Load modules.' );
-diag( "Testing Error::Base $Error::Base::VERSION" );
+diag( "Testing Game::KSP $Game::KSP::VERSION" );
